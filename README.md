@@ -21,7 +21,7 @@ We will be displaying our shiny new pokemons on our website!
    - The `HttpResponse` should contain a [multi-line](https://www.programiz.com/python-programming/examples/multiline-string) string, that is also an [f-string](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python), which displays the details of our pokemon.
 2. Go to `urls.py` and create a path for our pokemon detail view.
    - Import our `get_pokemon` view.
-   - Add a `path` that is starts with `/pokemons` and contains an id in its path.
+   - Add a `path` that is starts with `pokemons/` and contains an id in its path.
 3. Go to `/pokemons/YOUR_ID` and verify that you can see your pokemon.
 4. Commit and push your code.
 
@@ -33,8 +33,8 @@ We will be displaying our shiny new pokemons on our website!
    - The `HttpResponse` should contain a [joined](https://www.programiz.com/python-programming/methods/string/join) list of [f-string](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)s (separated by a new line), that displays the names of **all** our pokemons.
 2. Go to `urls.py` and create a path for our pokemon detail view.
    - Import our `get_pokemons` view.
-   - Add a `/pokemons` _`path`_.
-3. Go to `/pokemons` and verify that you can see all of your pokemons.
+   - Add a `pokemons/` _`path`_.
+3. Go to `pokemons/` and verify that you can see all of your pokemons.
 4. Commit and push your code.
 
 ## Bonus
