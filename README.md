@@ -22,7 +22,7 @@ We will be displaying our shiny new pokemons on our website!
 2. Go to `urls.py` and create a path for our pokemon detail view.
    - Import our `get_pokemon` view.
    - Add a `path` that is starts with `pokemons/` and contains an id in its path.
-3. Go to `/pokemons/YOUR_ID` and verify that you can see your pokemon.
+3. Go to `/pokemons/YOUR_ID/` on your webbrowser and verify that you can see your pokemon.
 4. Commit and push your code.
 
 ## Detail Bonus
