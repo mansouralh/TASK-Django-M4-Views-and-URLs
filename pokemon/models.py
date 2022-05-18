@@ -18,9 +18,9 @@ class Pokemon(models.Model):
     active = models.BooleanField(default=True)
 
     # Localizations
-    name_fr = models.CharField(max_length=30, default="")
-    name_jp = models.CharField(max_length=30, default="")
-    name_ar = models.CharField(max_length=30, default="")
+    name_fr = models.CharField(max_length=30, default="", blank=True)
+    name_jp = models.CharField(max_length=30, default="", blank=True)
+    name_ar = models.CharField(max_length=30, default="", blank=True)
 
     # Timestamps
     created_at = models.DateTimeField(auto_now_add=True)
