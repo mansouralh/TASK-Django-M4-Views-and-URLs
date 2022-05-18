@@ -25,6 +25,10 @@ We will be displaying our shiny new pokemons on our website!
 3. Go to `/pokemons/YOUR_ID` and verify that you can see your pokemon.
 4. Commit and push your code.
 
+## Detail Bonus
+
+Make each line of your pokemon details show up as a separate line on the webbrowser (hint: use [`p` tags](https://www.w3schools.com/tags/tag_p.asp)).
+
 ## List View
 
 1. Go to `views.py` and create a list view for all our pokemons.
@@ -37,6 +41,7 @@ We will be displaying our shiny new pokemons on our website!
 3. Go to `pokemons/` and verify that you can see all of your pokemons.
 4. Commit and push your code.
 
-## Bonus
+## List Bonus
 
-Link your list of pokemons to their respective detail pages.
+1. Have each pokemon separated on your webbrowser by a new line (hint: use a [`ul` tag](https://www.w3schools.com/tags/tag_ul.asp) with `li` tags).
+2. Link your list of pokemons to their respective detail pages.
