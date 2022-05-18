@@ -30,9 +30,13 @@ We will be displaying our shiny new pokemons on our website!
 1. Go to `views.py` and create a list view for all our pokemons.
    - Call the function `get_pokemons`.
    - The function will receive a `request`, and return an `HttpResponse`.
-   - The `HttpResponse` should contain a [joined](https://www.programiz.com/python-programming/methods/string/join) list of [f-string](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)s, that displays the names of **all** our pokemons.
+   - The `HttpResponse` should contain a [joined](https://www.programiz.com/python-programming/methods/string/join) list of [f-string](https://realpython.com/python-f-strings/#f-strings-a-new-and-improved-way-to-format-strings-in-python)s (separated by a new line), that displays the names of **all** our pokemons.
 2. Go to `urls.py` and create a path for our pokemon detail view.
    - Import our `get_pokemons` view.
    - Add a `/pokemons` _`path`_.
 3. Go to `/pokemons` and verify that you can see all of your pokemons.
 4. Commit and push your code.
+
+## Bonus
+
+Link your list of pokemons to their respective detail pages.
