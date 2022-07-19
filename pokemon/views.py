@@ -13,6 +13,6 @@ def get_pokemon(request,pokemon_id):
     return HttpResponse (show_poke)
 
 def get_pokemons(request):
-    poki=Pokemon.objects.all().values_list("name",flat=True)
-    # poki_list= .join(poki)
-    return HttpResponse("<li>".join(poki))
+    pokis=Pokemon.objects.all().values_list("name",flat=True)
+    # "\n".join(f"<li>{poki}</li> " for poki in pokis )
+    return HttpResponse("\n".join(f"<li>{poki}</li> " for poki in pokis ))
